@@ -1,16 +1,26 @@
 {
-  "name": "@stephen-fong/npm-js-package-example",
+  "name": "add-function-stephenfong",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "types": "lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fongchinghinstephenico/add-function-npm-package.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^4.4.4"
-  }
+  "bugs": {
+    "url": "https://github.com/fongchinghinstephenico/add-function-npm-package/issues"
+  },
+  "homepage": "https://github.com/fongchinghinstephenico/add-function-npm-package#readme"
 }
